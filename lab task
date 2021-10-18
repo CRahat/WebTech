@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<title>Form Action</title>
+</head>
+<body>
+
+	<h1>From Action</h1>
+
+	<style>
+table, thead, tbody, tr, th, td {
+border: 1px solid black;
+}
+</style>
+
+	
+	<?php
+echo $_POST['firstname'];
+
+echo "<br>";
+
+echo $_POST['lastname'];
+
+echo "<br>";
+
+echo $_POST['gender'];
+
+?>
+
+
+	
+</body>
+</html>
